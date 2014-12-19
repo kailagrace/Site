@@ -10,8 +10,7 @@ body, button{
 
 .controls{
   padding: 2%;
-  background: #333;
-  color: #eee;
+  color: black;
 }
 
 label{
@@ -22,7 +21,6 @@ label{
 button{
   display: inline-block;
   padding: .4em .8em;
-  background: #666;
   border: 0;
   color: #ddd;
   font-size: 16px;
@@ -32,22 +30,18 @@ button{
 }
 
 button.active{
-  background: #68b8c4;
+
 }
 
 button:focus{
   outline: 0 none;
 }
 
-button + label{
-  margin-left: 1em;
-}
 
 .container-mixed{
   padding: 2% 2% 0;
   text-align: justify;
   font-size: 0.1px;
-  background: #68b8c4;
   
   -webkit-backface-visibility: hidden;
 }
@@ -66,22 +60,21 @@ button + label{
 
 .container-mixed .mix{
   text-align: left;
-  background: #03899c;
   margin-bottom: 2%;
 
 }
 
 .container-mixed .mix.category-1{
-  border-top: 2px solid limegreen;
+  border-top: 2px solid black;
 }
 
 .container-mixed .mix.category-2{
-  border-top: 2px solid yellow;
+  border-top: 2px solid gray;
 }
 
 .container-mixed .mix:after{
   content: attr(data-myorder);
-  color: white;
+  color: black;
   font-size: 16px;
   display: inline-block;
   vertical-align: top;
