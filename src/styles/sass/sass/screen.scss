@@ -24,7 +24,6 @@ $primary-color: hsla(176, 0%, 0%, 1);
 
 /*images*/
 $tiny-image:15%;
-	
 $default-image: 200px;
 
 /*padding*/
@@ -69,6 +68,9 @@ header {
 	max-width:550px;
 	padding:$standard-padding;
 }
+
+.thumb-img{
+	width:$default-image;}
 
 /*Typography*/
 .tk-futura-pt{
